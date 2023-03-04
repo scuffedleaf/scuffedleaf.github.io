@@ -3,58 +3,109 @@
   <head>
     <title>Superheroes</title>
     <style>
-      /* CSS styles go here */
+      background-color: rgb(160,211,216);
       table {
         border-collapse: collapse;
         width: 100%;
       }
-      th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
+      th,td{
+         border:1px solid black;
+         padding-left:10px;
+         padding-right:10px;
+         padding-top:10px;
+         padding-bottom:10px;
       }
       th {
-        background-color: #4CAF50;
+        background-color: #4E8A90;
         color: white;
       }
     </style>
   </head>
   <body>
-    <h1>Superheroes</h1>
     <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Alias</th>
-          <th>Image</th>
-          <th>Superpower</th>
-          <th>Weakness</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Superman</td>
-          <td>Clark Kent</td>
-          <td><a href="https://cdn.pixabay.com/photo/2015/12/13/16/41/superhero-1093988_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2015/12/13/16/41/superhero-1093988_960_720.jpg" height="100"></a></td>
-          <td>Super strength, speed, and senses; flight; heat vision; freeze breath; x-ray vision</td>
-          <td>Kryptonite</td>
-        </tr>
-        <tr>
-          <td>Batman</td>
-          <td>Bruce Wayne</td>
-          <td><a href="https://cdn.pixabay.com/photo/2016/03/31/20/03/batman-1299625_960_720.png"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/03/batman-1299625_960_720.png" height="100"></a></td>
-          <td>Genius-level intellect; peak physical and mental conditioning; martial arts mastery; high-tech gadgets and vehicles</td>
-          <td>No superpowers, but vulnerable to physical and psychological attacks</td>
-        </tr>
-        <tr>
-          <td>Wonder Woman</td>
-          <td>Diana Prince</td>
-          <td><a href="https://cdn.pixabay.com/photo/2020/06/22/09/21/wonder-woman-5328645_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/06/22/09/21/wonder-woman-5328645_960_720.jpg" height="100"></a></td>
-          <td>Super strength and durability; flight; combat skills; weapons mastery; Lasso of Truth</td>
-          <td>Vulnerable to piercing weapons, magic, and psychological attacks</td>
-        </tr>
-        <tr>
-          <td>Spider-Man</td>
-          <td>Peter Parker</td>
-          <td><a href="https://cdn.pixabay.com/photo/2014/09/14/18/04/spiderman-445395_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2014/09/14/18/04/spiderman-445395_960_720.jpg" height="100"></a></td>
-          <td>Superhuman strength, agility, and reflexes; ability to cling to
+            <caption>Superhero Team</caption>
+            <tbody>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Alias</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Superpower(s)</th>
+                    <th scope="col">Weakness(es)</th>
+                </tr>
+                <tr>
+                    <th scope="row">Spiderman</th>
+                    <td>Peter Parker</td>
+                    <td style="text-align:center;"><a href="images/spiderman.jpg"><img alt="Spiderman Pic" src="images/spiderman.jpg" height="100px"/></a></td>
+                    <td>
+                       <ul>
+                         <li>Spider-sense</li>
+                         <li>Super Strength</li>
+                         <li>Climbing Walls</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <li>Unwilling to do &quot;what is necessary&quot;
+                    </td>
+                  
+                </tr>
+                <tr>
+                    <th scope="row">Ironman</th>
+                    <td>Tony Stark</td>
+                    <td style="text-align:center;"><a href="images/ironman.jpg"><img alt="Ironman Pic" src="images/ironman.jpg" height="100px"/></a></td>
+                    <td>
+                       <ul>
+                         <li>Genius</li>
+                         <li>Billionaire</li>
+                         <li>Playboy</li>
+                         <li>Philanthropist</li>
+                      </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Alcohol</li>
+                            <li>Limited power source(Arc Reactor)</li>
+                            <li>Infinity Stones</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Black Panther</th>
+                    <td>King T'Challa</td>
+                    <td style="text-align:center;"><a href="images/blackPanther.png"><img alt="BlackPanther Pic" src="images/blackPanther.png" height="100px"/></a></td>
+                    <td>
+                        <ul>
+                            <li>Super Strength</li>
+                            <li>Clairvoyance</li>
+                            <li>Superhuman Senses</li>
+                        </ul>
+                    </td>
+                    <td>
+                      <ul>
+                            <li>Arrogance(Comics)</li>
+                            <li>Magic</li>
+                            <li>Daddy Issues</li>
+                      </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Caped Baldy</th>
+                    <td>Saitama</td>
+                    <td style="text-align:center;"><a href="images/saitama.jpg"><img alt="Saitama Pic" src="images/saitama.jpg" height="100px"/></a></td>
+                    <td>
+                        <ul>
+                            <li>Super Strength</li>
+                            <li>One Punch</li>
+                            <li>Superhuman Speed</li>
+                            <li>Superhuman Reflexes</li>
+                        </ul>
+                    </td>
+                    <td>
+                      <ul>
+                            <li>Mosquito</li>
+                            <li>Rock PapeR Scissors</li>
+                            <li>Hero Rank Class C</li>
+                      </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
