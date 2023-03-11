@@ -1,18 +1,16 @@
-<style>
-      body{
-        background-color: rgb(160,211,216) !important;
-      }
-      p{
-        font-family: Courier;
-      }
-      img {
-         border-radius: 5px;
-         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-      }
-      h1 {
-         font-size: 2.5rem;
-         font-weight: bold;
-         text-decoration: underline;
-         color: #333;
-      }
- </style>
+body{
+      background-color: rgb(160,211,216) !important;
+}
+p{
+      font-family: Courier;
+}
+img {
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+}
