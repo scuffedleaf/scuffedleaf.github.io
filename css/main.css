@@ -1,5 +1,7 @@
 body{
-      background-color: rgb(160,211,216) !important;
+      background: linear-gradient(to top,skyblue,lightgreen);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
 }
 p{
       font-family: Courier;
