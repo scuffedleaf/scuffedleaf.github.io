@@ -1,18 +1,45 @@
+
 body{
-      background: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+  background: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
       background-repeat: no-repeat;
       background-attachment: fixed;
+      
 }
 h1,h2,p{
-      font-family: Courier;
+  font-family: Courier;
 }
 img {
-      border-radius: 5px;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      text-decoration: none;
-      color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:#333;
+}
+
+/* Style for search.html*/
+
+#searchbox{
+  width: 600px;
+  
+}
+input, select, option{
+  color: black;
+  background: rgba(192,229,246,1) 64%;
+  font-weight: bold;
+}
+#submitButton{
+  color: black;
+  background: orange;
+}
+label[for="searchbox"], legend{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+label[for="exact-match"], label[for="file-type"], 
+label[for="site-search"], label[for="search-in-title"], 
+label[for="date-range"], label[for=site] {
+  font-weight: bold;
 }
