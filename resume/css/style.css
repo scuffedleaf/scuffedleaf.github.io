@@ -7,7 +7,7 @@ body {
     nav {
         display: flex;
         justify-content: center;
-        margin: 1rem 0;
+        margin: 1rem ;
     }
 
     section {
@@ -75,6 +75,7 @@ nav a:hover {
 .logo img {
   width: 250px;
   height: 250px;
+  border-radius:  50%;
 }   
 
 .name {
@@ -85,39 +86,53 @@ nav a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  line-height: 1.2;
 }
 .logo {
   display: inline-block;
   vertical-align: middle;
 }
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
 
+}
 .name, .nav {
   display: inline-block;
   vertical-align: middle;
 }
   @media screen and (max-width: 767px) {
-    .section {
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        nav li {
+            width: 50%;
+            flex: 1;
+        }
+        .section {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
         }
-        
+            
         ul {
             list-style-position: inside;
             padding-left: 20px;
             text-align: left;
         }
-        
+            
         ul li {
-        margin-bottom: 1rem;
-        padding-left: 0.8rem;
-        text-indent: -1.5rem;
-    }
-        
+            margin-bottom: 1rem;
+            padding-left: 0.8rem;
+            text-indent: -1.5rem;
+        }
+            
         h3 {
             text-align: center;
-        }
-        
+        }  
     }
