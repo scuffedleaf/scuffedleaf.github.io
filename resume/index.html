@@ -1,128 +1,162 @@
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotaru's Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <div class="logo">
-        <img src="images/reyy5.jpg" alt="Logo">
-    </div>
-    <div class = "name">
-        <h3>Hotaru Oreki</h3>
-        <nav>
-            <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            </ul>
-        </nav>
+    <div class="logo"><img src="images/reyy5.jpg" alt="Logo"></div>
+    <div class="name">
+      <h3>Hotaru Oreki</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
-
   <main>
     <section id="contact">
-      <h2>Contact Information</h2>
-      <p><strong>Mailing Address City/State: </strong><br>Lawrenson Hall Rm 11B <br>Greeley, CO 80631<br><strong> 
-
-        <br>Email: </strong>scuffedleaf@gmail.com<br><strong> <br>Phone:</strong> (626)369-7118</p>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-
-      <p> <strong>Bachelor of Science</strong>
-        <br> University of Northern Colorado <br>(expected graduation by 2025)
-        </p>
-      <p>GPA: 3.85</p>
-
-      <p> <strong>High School</strong>
-        <br> Prairie View High School
-        </p>
-      <p>GPA: 3.97</p>
-
-    </section>
-
-    <section id="experience">
-      <h2>Relevant Experience</h2>
-      <h3>Software Engineer, Greeley, CO (August 2021 – Present)</h3>
-      <ul>
-        <li>Developed a version of WORDLE with Java, JavaUI and JavaFX</li>
-        <li>Developed a digital clock using Python</li>
-        <li>Learned basic animation using TKinter in Python</li>
-        <li>Created a Spotify Clone website using ReactJS (lyrik-appv2.netlify.app)</li>
-      </ul>
-      <h3>Package Packer/Stower, Amazon, Thornton, CO (July 14,2022 – August 14,2022)</h3>
-      <ul>
-        <li>Packaged orders for delivery</li>
-        <li>Scanned and stowed items for inventory/order</li>
-      </ul>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h3>Web Services</h3>
-              <ul>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>TypeScript</li>
-                <li>TailwindCSS</li>
-              </ul>
-            </div>
-            <div class="col">
-              <h3>Languages</h3>
-              <ul>
-                <li>Java</li>
-                <li>C#</li>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>ReactJS</li>
-              </ul>
-            </div>
+      <div class="container mb-4 mt-2">
+        <h2>Contact Information</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong>Mailing Address City/State:</strong><br>
+            Lawrenson Hall Rm 11B<br>
+            Greeley, CO 80631</p>
           </div>
-          <div class="row">
-            <div class="col">
-              <h3>Software</h3>
-              <ul>
-                <li>Visual Studio Code</li>
-                <li>BlueJ</li>
-                <li>Python IDLE</li>
-              </ul>
-            </div>
-            <div class="col">
-              <h3>Hardware</h3>
-              <ul>
-                <li>Wifi</li>
-                <li>Bluetooth</li>
-                <li>Arduino</li>
-              </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <h3>OS</h3>
-              <ul>
-                <li>Microsoft Windows</li>
-              </ul>
-            </div>
-            <div class="col">
-              <h3>Machinery</h3>
-              <ul>
-                <li>AMD</li>
-                <li>INTEL</li>
-              </ul>
-            </div>
+          <div class="col-md-6">
+            <p><strong>Email:</strong> scuffedleaf@gmail.com<br>
+            <strong>Phone:</strong> (626)369-7118</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section id="education">
+      <div class="container mb-4">
+        <h2>Education</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong>Bachelor of Science</strong><br>
+            University of Northern Colorado<br>
+            (expected graduation by 2025)</p>
+          </div>
+          <div class="col-md-6">
+            <p><strong>High School</strong><br>
+            Prairie View High School</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>GPA: 3.85</p>
+          </div>
+          <div class="col-md-6">
+            <p>GPA: 3.97</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container">
+        <h2>Relevant Experience</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Software Engineer, Greeley, CO<br>
+            (August 2021 – Present)</h5>
+            <ul>
+              <li>Developed a version of WORDLE with Java, JavaUI and JavaFX</li>
+              <li>Developed a digital clock using Python</li>
+              <li>Learned basic animation using TKinter in Python</li>
+              <li>Created a Spotify Clone website using ReactJS (lyrik-appv2.netlify.app)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Package Packer/Stower Amazon, Thornton, CO<br>
+            (July 14,2022 – August 14,2022)</h5>
+            <ul>
+              <li>Packaged orders for delivery</li>
+              <li>Scanned and stowed items for inventory/order</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Web Services</h5>
+            <ul>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>TypeScript</li>
+              <li>TailwindCSS</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Languages</h5>
+            <ul>
+              <li>Java</li>
+              <li>C#</li>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>ReactJS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Software</h5>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>BlueJ</li>
+              <li>Python IDLE</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Hardware</h5>
+            <ul>
+              <li>Wifi</li>
+              <li>Bluetooth</li>
+              <li>Arduino</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>OS</h5>
+            <ul>
+              <li>Microsoft Windows</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Machinery</h5>
+            <ul>
+              <li>AMD</li>
+              <li>INTEL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+</body>
 </html>
