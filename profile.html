@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title> PROFILE </title>
-    <link rel="stylesheet"  href="css/main.css">
-  </head>
-  <body>
-    <h1> Dale Barriga </h1>
-    <img src="images/reyy2.jpg" alt= "alt picture" width="300">
-    <h2> Special Interests </h2>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>PROFILE</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+        body {
+            font-family: "Brush Script MT", cursive;
+            font-size: 24px;
+            line-height: 1.5;
+            color: #333;
+            background: linear-gradient(to right, #333333, #666666);color: #ffffff;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 500px;
+            height: auto;
+        }
+        ul {
+        list-style-type: disc;
+        }
+        #homebutton {
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 767px) {
+            .profile-img {
+                display: block;
+                margin: 0 auto;
+                max-width: 300px;
+                height: auto;
+            }
+            li {
+                text-align: center;
+            }
+            ul {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Dale Barriga</h1><img src="images/reyy2.jpg" alt="profile" class="mx-auto d-block img-fluid rounded-circle profile-img">
+    <h2 class="text-center mt-4">Special Interests</h2>
     <ul>
-      <li><b> Basketball </b></li>
-      <li><b> Valorant </b></li>
-      <li><b> E-Skating </b></li>
+      <li>Basketball</li>
+      <li>Valorant</li>
+      <li>E-Skating</li>
     </ul>
-    <p><a href="index.html"><img id="homebutton" src="images/homeButton.png" alt="homepage button"></a></p>
-  </body>
+    <p class="text-center mt-4"><a href="index.html"><img id="homebutton" src="images/homeButton.png" alt="homepage button" class="img-fluid"></a></p>
+  </div>
+</body>
 </html>
